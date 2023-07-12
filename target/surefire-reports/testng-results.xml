@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-07T13:57:54 IST" name="Suite" finished-at="2023-07-07T13:58:15 IST" duration-ms="20900">
+    <groups>
+    </groups>
+    <test started-at="2023-07-07T13:57:54 IST" name="Test" finished-at="2023-07-07T13:58:15 IST" duration-ms="20900">
+      <class name="com.pom.SW_VerifyDifferentSortingTest">
+        <test-method is-config="true" signature="intialization()[pri:0, instance:com.pom.SW_VerifyDifferentSortingTest@d86a6f]" started-at="2023-07-07T13:58:02 IST" name="intialization" finished-at="2023-07-07T13:58:04 IST" duration-ms="1692" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialization -->
+        <test-method signature="VerifySorting()[pri:0, instance:com.pom.SW_VerifyDifferentSortingTest@d86a6f]" started-at="2023-07-07T13:58:04 IST" name="VerifySorting" finished-at="2023-07-07T13:58:05 IST" duration-ms="588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySorting -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.pom.SW_VerifyDifferentSortingTest@d86a6f]" started-at="2023-07-07T13:58:05 IST" name="quit" finished-at="2023-07-07T13:58:05 IST" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.pom.SW_VerifyDifferentSortingTest -->
+      <class name="com.pom.SW_VerificationOfCartValueTest">
+        <test-method is-config="true" signature="intialization()[pri:0, instance:com.pom.SW_VerificationOfCartValueTest@63376bed]" started-at="2023-07-07T13:57:58 IST" name="intialization" finished-at="2023-07-07T13:58:00 IST" duration-ms="1560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialization -->
+        <test-method signature="VerifiyCartValue()[pri:0, instance:com.pom.SW_VerificationOfCartValueTest@63376bed]" started-at="2023-07-07T13:58:00 IST" name="VerifiyCartValue" finished-at="2023-07-07T13:58:00 IST" duration-ms="485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifiyCartValue -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.pom.SW_VerificationOfCartValueTest@63376bed]" started-at="2023-07-07T13:58:00 IST" name="quit" finished-at="2023-07-07T13:58:00 IST" duration-ms="184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.pom.SW_VerificationOfCartValueTest -->
+      <class name="com.pom.SW_VerifyProductsInCartTest">
+        <test-method is-config="true" signature="intialization()[pri:0, instance:com.pom.SW_VerifyProductsInCartTest@4145bad8]" started-at="2023-07-07T13:58:00 IST" name="intialization" finished-at="2023-07-07T13:58:02 IST" duration-ms="1612" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialization -->
+        <test-method signature="ProductCheckOut()[pri:0, instance:com.pom.SW_VerifyProductsInCartTest@4145bad8]" started-at="2023-07-07T13:58:02 IST" name="ProductCheckOut" finished-at="2023-07-07T13:58:02 IST" duration-ms="446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductCheckOut -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.pom.SW_VerifyProductsInCartTest@4145bad8]" started-at="2023-07-07T13:58:02 IST" name="quit" finished-at="2023-07-07T13:58:02 IST" duration-ms="175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.pom.SW_VerifyProductsInCartTest -->
+      <class name="com.pom.SW_LoginTest">
+        <test-method is-config="true" signature="intialization()[pri:0, instance:com.pom.SW_LoginTest@2892d68]" started-at="2023-07-07T13:58:05 IST" name="intialization" finished-at="2023-07-07T13:58:07 IST" duration-ms="1777" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialization -->
+        <test-method signature="verifyErrorMeassageForInvalidUser(java.lang.String,java.lang.String)[pri:0, instance:com.pom.SW_LoginTest@2892d68]" started-at="2023-07-07T13:58:07 IST" name="verifyErrorMeassageForInvalidUser" data-provider="invalidData" finished-at="2023-07-07T13:58:07 IST" duration-ms="225" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyErrorMeassageForInvalidUser -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.pom.SW_LoginTest@2892d68]" started-at="2023-07-07T13:58:07 IST" name="quit" finished-at="2023-07-07T13:58:07 IST" duration-ms="143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="intialization()[pri:0, instance:com.pom.SW_LoginTest@2892d68]" started-at="2023-07-07T13:58:07 IST" name="intialization" finished-at="2023-07-07T13:58:09 IST" duration-ms="1573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialization -->
+        <test-method signature="verifyErrorMeassageForInvalidUser(java.lang.String,java.lang.String)[pri:0, instance:com.pom.SW_LoginTest@2892d68]" started-at="2023-07-07T13:58:09 IST" name="verifyErrorMeassageForInvalidUser" data-provider="invalidData" finished-at="2023-07-07T13:58:09 IST" duration-ms="199" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyErrorMeassageForInvalidUser -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.pom.SW_LoginTest@2892d68]" started-at="2023-07-07T13:58:09 IST" name="quit" finished-at="2023-07-07T13:58:09 IST" duration-ms="170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="intialization()[pri:0, instance:com.pom.SW_LoginTest@2892d68]" started-at="2023-07-07T13:58:09 IST" name="intialization" finished-at="2023-07-07T13:58:11 IST" duration-ms="1573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialization -->
+        <test-method signature="verifyErrorMeassageForInvalidUser(java.lang.String,java.lang.String)[pri:0, instance:com.pom.SW_LoginTest@2892d68]" started-at="2023-07-07T13:58:11 IST" name="verifyErrorMeassageForInvalidUser" data-provider="invalidData" finished-at="2023-07-07T13:58:11 IST" duration-ms="217" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyErrorMeassageForInvalidUser -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.pom.SW_LoginTest@2892d68]" started-at="2023-07-07T13:58:11 IST" name="quit" finished-at="2023-07-07T13:58:11 IST" duration-ms="187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="intialization()[pri:0, instance:com.pom.SW_LoginTest@2892d68]" started-at="2023-07-07T13:58:11 IST" name="intialization" finished-at="2023-07-07T13:58:13 IST" duration-ms="1594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialization -->
+        <test-method signature="verifyErrorMeassageForInvalidUser(java.lang.String,java.lang.String)[pri:0, instance:com.pom.SW_LoginTest@2892d68]" started-at="2023-07-07T13:58:13 IST" name="verifyErrorMeassageForInvalidUser" data-provider="invalidData" finished-at="2023-07-07T13:58:13 IST" duration-ms="209" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wrong]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyErrorMeassageForInvalidUser -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.pom.SW_LoginTest@2892d68]" started-at="2023-07-07T13:58:13 IST" name="quit" finished-at="2023-07-07T13:58:13 IST" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="intialization()[pri:0, instance:com.pom.SW_LoginTest@2892d68]" started-at="2023-07-07T13:58:13 IST" name="intialization" finished-at="2023-07-07T13:58:15 IST" duration-ms="1622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialization -->
+        <test-method signature="verifyErrorMeassageForInvalidUser(java.lang.String,java.lang.String)[pri:0, instance:com.pom.SW_LoginTest@2892d68]" started-at="2023-07-07T13:58:15 IST" name="verifyErrorMeassageForInvalidUser" data-provider="invalidData" finished-at="2023-07-07T13:58:15 IST" duration-ms="218" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyErrorMeassageForInvalidUser -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.pom.SW_LoginTest@2892d68]" started-at="2023-07-07T13:58:15 IST" name="quit" finished-at="2023-07-07T13:58:15 IST" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.pom.SW_LoginTest -->
+      <class name="com.pom.SW_ProductCheckoutTest">
+        <test-method is-config="true" signature="intialization()[pri:0, instance:com.pom.SW_ProductCheckoutTest@52b1beb6]" started-at="2023-07-07T13:57:54 IST" name="intialization" finished-at="2023-07-07T13:57:57 IST" duration-ms="2500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialization -->
+        <test-method signature="ProductCheckOut()[pri:0, instance:com.pom.SW_ProductCheckoutTest@52b1beb6]" started-at="2023-07-07T13:57:57 IST" name="ProductCheckOut" finished-at="2023-07-07T13:57:58 IST" duration-ms="1186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductCheckOut -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.pom.SW_ProductCheckoutTest@52b1beb6]" started-at="2023-07-07T13:57:58 IST" name="quit" finished-at="2023-07-07T13:57:58 IST" duration-ms="191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.pom.SW_ProductCheckoutTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
